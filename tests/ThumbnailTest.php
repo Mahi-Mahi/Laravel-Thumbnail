@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 class ThumbnailTest extends TestCase
 {
     /** @test */
-    public function itReturnAThumbnail()
+    public function trueIsTrue()
     {
         $this->assertTrue(true);
     }

@@ -3,7 +3,7 @@
     "description": "Laravel Thumbnail",
     "keywords": [
         "mahi-mahi",
-        "laravel-thumbnails"
+        "laravel-thumbnail"
     ],
     "homepage": "https://github.com/mahi-mahi/laravel-thumbnail",
     "license": "MIT",
@@ -15,11 +15,13 @@
     }],
     "require": {
         "php": "^7.4",
-        "illuminate/support": "^7.0"
+        "illuminate/support": "^7.0",
+        "spatie/image": "^1.7"
     },
     "require-dev": {
         "orchestra/testbench": "^5.0",
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^9.0",
+        "spatie/phpunit-watcher": "^1.22"
     },
     "autoload": {
         "psr-4": {
@@ -45,7 +47,7 @@
                 "Mahi\\Thumbnail\\ThumbnailServiceProvider"
             ],
             "aliases": {
-                "Thumbnail": "Mahi\\Thumbnail\\ThumbnailFacade"
+                "Thumbnail": "Mahi\\Thumbnail\\Facades\\Thumbnail"
             }
         }
     }

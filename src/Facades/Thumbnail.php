@@ -1,13 +1,13 @@
 <?php
 
-namespace Mahi\Thumbnail;
+namespace Mahi\Thumbnail\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Mahi\Thumbnail\Skeleton\SkeletonClass
  */
-class ThumbnailFacade extends Facade
+class Thumbnail extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class ThumbnailFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-thumbnails';
+        return 'thumbnail';
     }
 }

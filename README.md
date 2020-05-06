@@ -1,9 +1,9 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mahi-mahi/laravel-thumbnails.svg?style=flat-square)](https://packagist.org/packages/mahi-mahi/laravel-thumbnails)
-[![Build Status](https://img.shields.io/travis/mahi-mahi/laravel-thumbnails/master.svg?style=flat-square)](https://travis-ci.org/mahi-mahi/laravel-thumbnails)
-[![Quality Score](https://img.shields.io/scrutinizer/g/mahi-mahi/laravel-thumbnails.svg?style=flat-square)](https://scrutinizer-ci.com/g/mahi-mahi/laravel-thumbnails)
-[![Total Downloads](https://img.shields.io/packagist/dt/mahi-mahi/laravel-thumbnails.svg?style=flat-square)](https://packagist.org/packages/mahi-mahi/laravel-thumbnails)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mahi-mahi/laravel-thumbnail.svg?style=flat-square)](https://packagist.org/packages/mahi-mahi/laravel-thumbnail)
+[![Build Status](https://img.shields.io/travis/mahi-mahi/laravel-thumbnail/master.svg?style=flat-square)](https://travis-ci.org/mahi-mahi/laravel-thumbnail)
+[![Quality Score](https://img.shields.io/scrutinizer/g/mahi-mahi/laravel-thumbnail.svg?style=flat-square)](https://scrutinizer-ci.com/g/mahi-mahi/laravel-thumbnail)
+[![Total Downloads](https://img.shields.io/packagist/dt/mahi-mahi/laravel-thumbnail.svg?style=flat-square)](https://packagist.org/packages/mahi-mahi/laravel-thumbnail)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
@@ -12,18 +12,18 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require mahi-mahi/laravel-thumbnails
+composer require mahi-mahi/laravel-thumbnail
 ```
 
 ## Usage
 
-``` php
+```php
 // Usage description here
 ```
 
 ### Testing
 
-``` bash
+```bash
 composer test
 ```
 
@@ -41,8 +41,8 @@ If you discover any security related issues, please email olivier.mourlevat@gmai
 
 ## Credits
 
-- [Olivier Mourlevat](https://github.com/mahi-mahi)
-- [All Contributors](../../contributors)
+-   [Olivier Mourlevat](https://github.com/mahi-mahi)
+-   [All Contributors](../../contributors)
 
 ## License
 
