@@ -1,18 +1,18 @@
 <?php
 
-namespace MahiMahi\LaravelThumbnails\Tests;
+namespace Mahi\Thumbnail\Tests;
 
 use Orchestra\Testbench\TestCase;
-use MahiMahi\LaravelThumbnails\LaravelThumbnailsServiceProvider;
+use Mahi\Thumbnail\ThumbnailServiceProvider;
 
 class ExampleTest extends TestCase
 {
 
     protected function getPackageProviders($app)
     {
-        return [LaravelThumbnailsServiceProvider::class];
+        return [ThumbnailServiceProvider::class];
     }
-    
+
     /** @test */
     public function true_is_true()
     {

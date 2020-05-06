@@ -1,20 +1,18 @@
 {
-    "name": "mahi-mahi/laravel-thumbnails",
-    "description": "Laravel Thumbnails",
+    "name": "mahi-mahi/laravel-thumbnail",
+    "description": "Laravel Thumbnail",
     "keywords": [
         "mahi-mahi",
         "laravel-thumbnails"
     ],
-    "homepage": "https://github.com/mahi-mahi/laravel-thumbnails",
+    "homepage": "https://github.com/mahi-mahi/laravel-thumbnail",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "Olivier Mourlevat",
-            "email": "olivier.mourlevat@gmail.com",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Olivier Mourlevat",
+        "email": "olivier.mourlevat@gmail.com",
+        "role": "Developer"
+    }],
     "require": {
         "php": "^7.4",
         "illuminate/support": "^7.0"
@@ -25,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MahiMahi\\LaravelThumbnails\\": "src"
+            "Mahi\\Thumbnail\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MahiMahi\\LaravelThumbnails\\Tests\\": "tests"
+            "Mahi\\Thumbnail\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MahiMahi\\LaravelThumbnails\\LaravelThumbnailsServiceProvider"
+                "Mahi\\Thumbnail\\ThumbnailServiceProvider"
             ],
             "aliases": {
-                "LaravelThumbnails": "MahiMahi\\LaravelThumbnails\\LaravelThumbnailsFacade"
+                "Thumbnail": "Mahi\\Thumbnail\\ThumbnailFacade"
             }
         }
     }

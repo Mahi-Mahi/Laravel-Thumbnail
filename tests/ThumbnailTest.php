@@ -1,6 +1,6 @@
 <?php
 
-namespace Mahi\LaravelThumbnails\Tests;
+namespace Mahi\Thumbnail\Tests;
 
 use PHPUnit\Framework\TestCase;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace MahiMahi\LaravelThumbnails;
+namespace Mahi\Thumbnail;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelThumbnailsServiceProvider extends ServiceProvider
+class ThumbnailServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -54,7 +54,7 @@ class LaravelThumbnailsServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('laravel-thumbnails', function () {
-            return new LaravelThumbnails;
+            return new Thumbnail;
         });
     }
 }

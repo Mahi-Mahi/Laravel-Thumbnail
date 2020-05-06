@@ -1,13 +1,13 @@
 <?php
 
-namespace MahiMahi\LaravelThumbnails;
+namespace Mahi\Thumbnail;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \MahiMahi\LaravelThumbnails\Skeleton\SkeletonClass
+ * @see \Mahi\Thumbnail\Skeleton\SkeletonClass
  */
-class LaravelThumbnailsFacade extends Facade
+class ThumbnailFacade extends Facade
 {
     /**
      * Get the registered name of the component.
