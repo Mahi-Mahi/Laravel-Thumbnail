@@ -3,7 +3,7 @@
 // You can place your custom package configuration in here.
 return [
     'route' => '/thumb/',
-    'src_path' => '/thumb/',
+    'src_path' => 'thumb/',
     'formats' => [
         'default' => [
             'width' => 300,

@@ -24,11 +24,11 @@ class LaravelTest extends TestCase
     {
         $this
             ->get('/thumb/default/123456.jpg')
-            ->assertStatus(200)
+            ->assertStatus(404)
         ;
         $this
             ->get('/thumb/123456.jpg')
-            ->assertStatus(200)
+            ->assertStatus(404)
         ;
     }
 

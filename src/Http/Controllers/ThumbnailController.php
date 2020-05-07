@@ -3,7 +3,6 @@
 namespace Mahi\Thumbnail\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
 use Mahi\Thumbnail\Facades\Thumbnail;
 
 class ThumbnailController
@@ -12,12 +11,6 @@ class ThumbnailController
     {
         preg_match('#^'.config('laravel-thumbnail.route').'(?P<format>[^/]+)/(?P<path>.+)$#', '/'.$request->path(), $match);
         extract($match);
-
-        logr($format, $path, public_path($path));
-
-        if (!Storage::disk('public')->exists($path)) {
-            abort(404);
-        }
 
         $extension = preg_replace('#^.*\\.(.*)$#', '\\1', $path);
 
