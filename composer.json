@@ -15,6 +15,7 @@
     }],
     "require": {
         "php": "^7.4",
+        "ext-imagick": "*",
         "illuminate/support": "^7.0",
         "spatie/image": "^1.7"
     },
